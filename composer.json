@@ -1,0 +1,23 @@
+{
+    "name": "koudela/yet-another-3sat-algorithm",
+    "description": "yet another 3sat algorithm - still not polynomial ;-)",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0-ALPHA",
+    "authors": [
+        {
+            "name": "Thomas Koudela",
+            "email": "thomas@koudela.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4" : {
+            "ya3sat\\" : "src/"
+        }
+    }
+}
